@@ -9,11 +9,11 @@ function pushToFront(arr, val) {
   console.log("After Push value at Front in array", arr);
 }
 pushToFront([1, 3, 5], 0);
-
-//remove and return the value at the beginning of the array.
 console.log(
   "-----------------------------------------------------------------------"
 );
+//remove and return the value at the beginning of the array.
+
 function popFront(arr) {
   console.log("Before remove the front elemenet from array", arr);
   var removeVal = arr[0];
